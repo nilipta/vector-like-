@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2019-06-20 16:27:24.882,=C:\Users\UZIBDA5\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2019-06-20 16:27:24.887,=C:\Users\UZIBDA5\Documents\Embarcadero\Studio\Projects\File1.cpp</Transaction>
+    <Transaction>2019-06-20 16:28:49.238,D:\Projects\Induction\stackVector001\File1.cpp=C:\Users\UZIBDA5\Documents\Embarcadero\Studio\Projects\File1.cpp</Transaction>
+    <Transaction>2019-06-20 16:28:50.802,D:\Projects\Induction\stackVector001\Project1PCH1.h=C:\Users\UZIBDA5\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2019-06-20 16:28:51.712,D:\Projects\Induction\stackVector001\Project1.cbproj=C:\Users\UZIBDA5\Documents\Embarcadero\Studio\Projects\Project1.cbproj</Transaction>
+    <Transaction>2019-06-20 16:28:58.926,D:\Projects\Induction\stackVector001\main.cpp=D:\Projects\Induction\stackVector001\File1.cpp</Transaction>
+    <Transaction>2019-06-20 16:29:05.102,D:\Projects\Induction\stackVector001\stack.h=D:\Projects\Induction\stackVector001\Project1PCH1.h</Transaction>
+    <Transaction>2019-06-20 16:29:10.840,=D:\Projects\Induction\stackVector001\File1.h</Transaction>
+    <Transaction>2019-06-20 16:29:28.967,=D:\Projects\Induction\stackVector001\File1.cpp</Transaction>
+    <Transaction>2019-06-20 16:29:33.095,D:\Projects\Induction\stackVector001\stack.cpp=D:\Projects\Induction\stackVector001\File1.cpp</Transaction>
+  </Transactions>
+  <ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="main.cpp"/>
+    <File Path="stack.cpp"/>
+    <File Path="stack.h"/>
+  </ProjectSortOrder>
+</BorlandProject>

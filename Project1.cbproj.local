@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.712,C:\Users\UZIBDA5\Documents\Embarcadero\Studio\Projects\Project1.cbproj=D:\Projects\Induction\stackVector001\Project1.cbproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.238,C:\Users\UZIBDA5\Documents\Embarcadero\Studio\Projects\File1.cpp=D:\Projects\Induction\stackVector001\File1.cpp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.926,D:\Projects\Induction\stackVector001\File1.cpp=D:\Projects\Induction\stackVector001\main.cpp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.095,D:\Projects\Induction\stackVector001\File1.cpp=D:\Projects\Induction\stackVector001\stack.cpp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.967,=D:\Projects\Induction\stackVector001\File1.cpp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.840,=D:\Projects\Induction\stackVector001\File1.h</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.102,D:\Projects\Induction\stackVector001\Project1PCH1.h=D:\Projects\Induction\stackVector001\stack.h</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.882,=C:\Users\UZIBDA5\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.887,=C:\Users\UZIBDA5\Documents\Embarcadero\Studio\Projects\File1.cpp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.802,C:\Users\UZIBDA5\Documents\Embarcadero\Studio\Projects\Project1PCH1.h=D:\Projects\Induction\stackVector001\Project1PCH1.h</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="main.cpp"/>
+    <File Path="stack.cpp"/>
+    <File Path="stack.h"/>
+  </ProjectSortOrder>
+</BorlandProject>
