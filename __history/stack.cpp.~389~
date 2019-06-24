@@ -62,33 +62,31 @@ bool Stack<T>::push(T valArg)
 
 
 template <class T>
-T Stack<T>::pop()
+bool Stack<T>::pop()
 {
-	T *P_Array_temp = new T[CurrentIndex];
+	T *P_string_temp = new T[CurrentIndex];
 	ArraySize = CurrentIndex;
-	T returningValue =  P_Array[CurrentIndex];
+	std::string returningValue =  P_string[CurrentIndex];
 	--CurrentIndex;		//removing popped index
 
 	//copying original string pointer to temp string pointer
 	for(unsigned int i =0; i <= CurrentIndex ; i++ )
 	{
-		P_Array_temp[i] = P_Array[i];
+		P_string_temp[i] = P_string[i];
 	}
 
-	delete[] P_Array;
-	P_Array =  new T[CurrentIndex+1];
+	delete[] P_string;
+	P_string =  new std::string[CurrentIndex+1];
 
 	//copying temp string pointer to original string pointer
 	for(unsigned int i =0; i <= CurrentIndex ; i++ )
 	{
-		P_Array[i] = P_Array_temp[i] ;
+		P_string[i] = P_string_temp[i] ;
 	}
 
-	delete[] P_Array_temp;
-	P_Array_temp = NULL;
-	//std::cout << "Popped : " << returningValue  << std::endl;
-
-	return returningValue;
+	delete[] P_string_temp;
+	P_string_temp = NULL;
+	std::cout << "Popped : " << returningValue  << std::endl;
 }
 
 

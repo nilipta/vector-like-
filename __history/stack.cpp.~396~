@@ -86,7 +86,7 @@ T Stack<T>::pop()
 
 	delete[] P_Array_temp;
 	P_Array_temp = NULL;
-	//std::cout << "Popped : " << returningValue  << std::endl;
+	std::cout << "Popped : " << returningValue  << std::endl;
 
 	return returningValue;
 }

@@ -62,7 +62,7 @@ bool Stack<T>::push(T valArg)
 
 
 template <class T>
-T Stack<T>::pop()
+bool Stack<T>::pop()
 {
 	T *P_Array_temp = new T[CurrentIndex];
 	ArraySize = CurrentIndex;
@@ -86,9 +86,7 @@ T Stack<T>::pop()
 
 	delete[] P_Array_temp;
 	P_Array_temp = NULL;
-	//std::cout << "Popped : " << returningValue  << std::endl;
-
-	return returningValue;
+	std::cout << "Popped : " << returningValue  << std::endl;
 }
 
 

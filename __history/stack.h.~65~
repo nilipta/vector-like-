@@ -10,12 +10,14 @@ class Stack{
 	public:
 		Stack();
 		~Stack();
-		void print_all();
-		bool push(T valArg);
-		T pop();
+		void int_print_all();
+		bool push(int valArg);
+		int pop();
 
 	private:
-		T *P_Array;
+		int *P_int;
+		double *P_double;
+		std::string *P_string;
 		int ArraySize;
 
 	private:

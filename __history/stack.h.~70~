@@ -12,7 +12,7 @@ class Stack{
 		~Stack();
 		void print_all();
 		bool push(T valArg);
-		T pop();
+		bool pop();
 
 	private:
 		T *P_Array;
