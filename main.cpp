@@ -50,9 +50,15 @@
 		std::cout << obj1.pop() << std::endl;
 	obj1.print_all();
 
+	std::cout  << "Sorting Ascending \n" << std::endl;
+	obj1.sortAscending();
+
+	std::cout  << "Sorting Descending \n" << std::endl;
+	obj1.sortDescending();
+
 	/* #################################################################### */
 
-	/*****  DOUBLE ****/
+	/*****  DOUBLE ****
 	Stack<double> obj2;
 	std::cout  << "pushing 12 \n" << std::endl;
 	obj2.push(25.5);
@@ -84,9 +90,15 @@
 	obj2.push(23.3);
 	obj2.push(25.5);
 	obj2.print_all();
+
+	std::cout  << "Sorting Ascending \n" << std::endl;
+	obj2.sortAscending();
+
+	std::cout  << "Sorting Descending \n" << std::endl;
+	obj2.sortDescending();
 	/* #################################################################### */
 
-	/*****  String ****/
+	/*****  String ****
 	Stack<std::string> obj3;
 	std::cout  << "pushing 12 \n" << std::endl;
 	obj3.push("A man");
@@ -117,6 +129,12 @@
 	obj3.push(" is  ");
 	obj3.push(" a test ");
 	obj3.print_all();
+
+	std::cout  << "Sorting Ascending \n" << std::endl;
+	obj3.sortAscending();
+
+	std::cout  << "Sorting Descending \n" << std::endl;
+	obj3.sortDescending();
 	/* #################################################################### */
 
 

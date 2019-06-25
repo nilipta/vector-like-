@@ -1,5 +1,7 @@
 #include <iostream>
+#include <algorithm>
 #include "stack.h"
+
 
 template <class T>
 Stack<T>::Stack()
@@ -101,4 +103,37 @@ void Stack<T>::print_all()
 	}
 }
 
+
+template <class T>
+void Stack<T>::sortAscending()
+{
+	T *P_ascending_Array = new T[CurrentIndex+1];
+	//assigning values
+	for(int i = 0; i <= CurrentIndex ; i++ )
+	{
+    	P_ascending_Array[i] = P_Array[i];
+	}
+	std::sort(&P_ascending_Array[0], &P_ascending_Array[CurrentIndex+1], Stack<T>::sortingClass(0));
+	for(int i = 0; i <= CurrentIndex ; i++ )
+	{
+		std::cout << "The index= " << i << " value = " << P_ascending_Array[i] <<std::endl;
+	}
+}
+
+
+template <class T>
+void Stack<T>::sortDescending()
+{
+	T *P_descending_Array = new T[CurrentIndex+1];
+	//assigning values
+	for(int i = 0; i <= CurrentIndex ; i++ )
+	{
+		P_descending_Array[i] = P_Array[i];
+	}
+	std::sort(&P_descending_Array[0], &P_descending_Array[CurrentIndex+1], Stack<T>::sortingClass(1));
+	for(int i = 0; i <= CurrentIndex ; i++ )
+	{
+		std::cout << "The index= " << i << " value = " << P_descending_Array[i] <<std::endl;
+	}
+}
 
