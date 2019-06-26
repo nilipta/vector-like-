@@ -10,14 +10,47 @@
 
 #include <stdio.h>
 #include <iostream>
+#include <string>
 
 #include "stack.h"
-#include "stack.cpp"
+#include "Circle.h"
 
  int _tmain(int argc, _TCHAR* argv[])
 {
 
-	/******Int*****/
+	/******Int*****
+	//create stack of shapes and then call sort function
+	Stack<Circle*> obj;
+
+	Circle *objCircle = new Circle(3, 10, "circle3");
+	obj.push(objCircle);
+	objCircle = new Circle(4, 10, "circle3");
+	obj.push(objCircle);
+	objCircle = new Circle(2, 10, "circle2");
+	obj.push(objCircle);
+	objCircle = new Circle(7, 10, "circle7");
+	obj.push(objCircle);
+	objCircle = new Circle(10, 10, "circle10");
+	obj.push(objCircle);
+	objCircle = new Circle(5, 10, "circle5");
+	obj.push(objCircle);
+	objCircle = new Circle(6, 10, "circle6");
+	obj.push(objCircle);
+	objCircle = new Circle(1, 10, "circle1");
+	obj.push(objCircle);
+	//for(std::size_t i = 0; i< 11 ; i++)
+	//{
+	//	std::cout << "\nthe circle Area = " << std::endl;
+	//	(obj.pop())->getArea();
+	//}
+
+    std::cout  << "Sorting Ascending \n" << std::endl;
+	obj.sortAscending();
+
+    //obj.print_all();
+    ************************************/
+
+	/****************/
 	Stack<int> obj1;
 	obj1.push(25);
 	obj1.push(35);
@@ -53,8 +86,6 @@
 	std::cout  << "Sorting Ascending \n" << std::endl;
 	obj1.sortAscending();
 
-	std::cout  << "Sorting Descending \n" << std::endl;
-	obj1.sortDescending();
 
 	/* #################################################################### */
 
@@ -94,8 +125,6 @@
 	std::cout  << "Sorting Ascending \n" << std::endl;
 	obj2.sortAscending();
 
-	std::cout  << "Sorting Descending \n" << std::endl;
-	obj2.sortDescending();
 	/* #################################################################### */
 
 	/*****  String ****
@@ -133,10 +162,7 @@
 	std::cout  << "Sorting Ascending \n" << std::endl;
 	obj3.sortAscending();
 
-	std::cout  << "Sorting Descending \n" << std::endl;
-	obj3.sortDescending();
 	/* #################################################################### */
-
 
 
 	int choice;

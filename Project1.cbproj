@@ -103,6 +103,12 @@
         <BCC_PCHName_Clang>stack.h</BCC_PCHName_Clang>
     </PropertyGroup>
     <ItemGroup>
+        <CppCompile Include="Circle.cpp">
+            <BuildOrder>3</BuildOrder>
+        </CppCompile>
+        <None Include="Circle.h">
+            <BuildOrder>4</BuildOrder>
+        </None>
         <CppCompile Include="main.cpp">
             <BuildOrder>1</BuildOrder>
         </CppCompile>
